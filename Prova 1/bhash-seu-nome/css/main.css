@@ -1,0 +1,334 @@
+/* === PREDEFINIÇÕES === */
+html { font-size: calc(1em + 1vw); }
+
+header
+{
+    background-image: url('../img/topo.png');
+    width: 100%;
+    height: 967px;
+    background-repeat: none;
+    flex-wrap: wrap;
+}
+header h1
+{
+    font-family: Arial;
+    font-size: 1.7em;
+    text-align: center;
+    color: white;
+    padding: 10vw 0vw 0vw 0vw;
+    font-weight: bold;
+}
+header h1>span
+{
+    font-family: Arial;
+    text-align: center;
+    color:rgb(182, 69, 182);
+}
+header h2
+{
+    font-family: Arial;
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    padding: 3vw 0vw 0vw 0vw;
+}
+header h3
+{
+    font-family: Arial;
+    font-size: 0.6em;
+    text-align: center;
+    color: white;
+    padding: 1vw 20vw 0vw 20vw;
+}
+
+/*  */
+
+section.navega
+{
+    background: whitesmoke;
+    justify-content: space-between;
+}
+section.navega
+{
+    display: flex;
+}
+section.navega h1
+{
+    padding: 2vw 1vw 2vw 15vw;
+    color: black;
+    font-family: Arial;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+section.navega h1>span
+{
+    color:rgb(182, 69, 182);
+    font-weight: bold;
+}
+
+section.navega ul 
+{
+    display: flex;
+    padding: 2vw 15vw 2vw 1vw;
+}
+section.navega ul li
+{
+    padding: 1vw;
+}
+section.navega ul li a
+{
+    font-size: 0.5em;
+    font-family: Arial;
+    text-decoration: none;
+    color: rgb(61, 58, 58);
+}
+section.navega ul li a:hover
+{
+    font-size: 0.5em;
+    font-family: Arial;
+    text-decoration: none;
+    color: rgb(182, 69, 182);
+}
+
+section.service 
+{
+    background: rgb(238, 238, 238);
+}
+section.service ul
+{
+    display: flex;
+    justify-content: center;
+    padding:6vw;
+}
+section.service ul li img
+{
+    width: 35%;
+    text-align: center;
+    display: flex;
+    padding: 0vw 5vw 1vw 5vw;
+}
+section.service ul li h2
+{
+    font-family: Arial;
+    font-size: 0.7em;
+    text-align: center;
+    color: rgb(77, 72, 72);
+}
+section.service ul li p 
+{
+    font-family: Arial;
+    font-size: 0.4em;
+    padding: 1vw 3vw 4vw 3vw;
+    text-align: center;
+    color: rgb(77, 72, 72);
+}
+section.service ul li
+{
+    padding: 3vw;
+}
+
+section.contato
+{
+    background: white;
+}
+section.contato h2
+{
+    text-align: center;
+    padding: 5vw 0vw 8vw 0vw;
+    color:black;
+    font-family: Arial;
+    font-weight: bold;
+}
+section.contato h2>span
+{
+    color: rgb(182, 69, 182);
+}
+section.contato input
+{
+    border: solid rgb(128, 122, 122);
+    border-width: 0.008vw;
+    width: 20vw;
+    height: 2.5vw;
+    color: black;
+    font-family: Arial;
+    margin: 1vw 0vw 0vw 20vw;
+    font-size: 0.6em;
+}
+section.contato textarea
+{
+    margin: 1vw 0vw 0vw 20vw;
+    border: solid rgb(128, 122, 122);
+    border-width: 0.008vw;
+    width: 19.7vw;
+    height: 8vw;
+    color: black;
+    font-family: Arial;
+    font-size: 0.6em;
+}
+section.contato div.submit input
+{
+    width: 10vw;
+    background: rgb(182, 69, 182);
+    border: none;
+    color: white;
+    transition: 3s;
+    font-size: 0.5em;
+    font-family: Arial;
+    border-radius: 0.2em;
+}
+section.contato div.submit input:hover
+{
+    width: 10vw;
+    background: grey;
+    border: none;
+    color: rgb(223, 173, 87);
+    transition: 3s;
+    font-size: 0.5em;
+    font-family: Arial;
+    transition: 2s;
+}
+section.contato div
+{
+    display: flex;
+}
+
+section.contato ul li h3
+{
+    text-align: justify;
+    font-size: 0.6em;
+    padding: 0vw 25vw 0vw 10vw;
+    color: rgb(61, 58, 58);
+    font-family: Arial;
+}
+section.contato ul li p
+{
+    font-size: 0.6em;
+    padding: 1vw 1vw 0vw 10vw;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+}
+section.contato ul.img
+{
+    display: flex;
+    padding: 0vw 0vw 20vw 0vw;
+}
+section.contato ul.img
+{
+    display: flex;
+    padding: 3vw 0vw 15vw 10vw;
+}
+section.contato ul.img img
+{
+    width: 70%;
+    height: 70%;
+}
+
+footer
+{
+    background: rgb(238, 238, 238);
+    padding: 3vw;
+    text-align: center;
+    font-size: 1.2em;
+}
+footer h1
+{
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+}
+footer h1>span
+{
+    color: rgb(182, 69, 182);
+}
+
+
+/* === BREAKPOINTS === */
+@media all and (max-width: 1199px) 
+{
+
+} 
+@media all and (max-width: 480px) 
+{
+header
+{
+    flex-wrap: wrap;
+}
+header h1
+{
+    padding: 80vw 0vw 0vw 0vw;
+    font-size: 3em;
+}
+header h2
+{
+    font-size: 1.5em;
+}
+header h3
+{
+    font-size: 1em;
+}
+
+section.navega
+{
+    flex-wrap: wrap;
+}
+section.navega ul
+{
+    text-align: center;
+    padding: 3vw;
+}
+section.service ul
+{
+    flex-wrap: wrap;
+}
+section.service ul li h2
+{
+    font-size: 1em;
+    font-weight: bold;
+}
+section.service ul li p
+{
+    font-size: 0.7em;
+}
+section.service ul li img
+{
+    padding: 0vw 0vw 5vw 30vw;
+    width: 30%;
+}
+
+section.contato
+{
+    flex-wrap: wrap;
+}
+section.contato input
+{
+    width: 60vw;
+    height: 10vw;
+}
+section.contato div.submit input
+{
+    width: 30vw;
+}
+section.contato textarea
+{
+    width: 59.4vw;
+    height: 30vw;
+}
+section.contato div
+{
+    display: inline;
+}
+section.contato ul
+{
+    padding: 6vw 5vw 1vw 5vw;
+}
+section.contato ul.img
+{
+    padding: 3vw 0vw 0vw 20vw;
+}
+section.contato ul.img img
+{
+    
+    width: 55%;
+}
+}

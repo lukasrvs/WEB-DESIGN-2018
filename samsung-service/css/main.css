@@ -1,0 +1,169 @@
+/* Definição genérica para responsividade */
+html { font-size: calc(1em + 1vw); }
+/* Especificação de tamanho de fonte entre 14px e 26px  */
+body {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+header
+{
+  justify-content: space-between;
+  font-family: sans-serif;  
+  display: flex;
+  border-bottom: solid;
+  border-bottom-width: thin;
+  border-bottom-color: rgb(211, 211, 211);
+}
+
+header h1
+{
+  padding: 1vw 12vw 0vw 0vw;
+}
+header h1 img
+{
+  width: 80%;
+}
+
+header ul
+{
+  padding: 1vw 0vw 1.5vw 10.7vw;
+}
+
+header ul li 
+{
+  padding: 0vw 0.5vw 0vw 0.5vw;
+  font-size: 0.6em;
+  font-family: sans-serif;
+  text-align: center;
+  display: inline;
+}
+header ul li:hover
+{
+  padding: 0vw 0.5vw 0vw 0.5vw;
+  font-size: 0.6em;
+  font-family: sans-serif;
+  text-align: center;
+  display: inline;
+  color: #1323A6;
+  border-bottom: solid;
+  border-bottom-style: solid;
+}
+header ul li a
+{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 0.89em;
+}
+header ul li a:hover
+{
+  text-decoration: none;
+ 
+}
+
+header ul.left
+{
+  padding: 1vw 5.5vw 0vw 0.5vw;
+}
+
+header ul.left li a img
+{
+  width: 5%;
+}
+
+/* -------------------------------------------- SECTION CADASTRO -------------------------------------------- */
+section.cadastro
+{
+  margin: 0vw 35vw 0vw 34vw;
+  padding: 0vw 2vw 0vw 2vw;
+  text-align: left;
+  font-family: sans-serif;
+  color: #0959A2;
+}
+section.cadastro h1
+{
+  padding: 1.8vw 0vw 4vw 0vw;
+  color: black;
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+section.cadastro div
+{
+  font-size: 0.7em;
+}
+section.cadastro h3
+{
+ font-size: 0.6em;
+  text-align: justify;
+  font-family: Arial; 
+  padding: 0vw 5vw 0vw 5vw;
+}
+section.cadastro input
+{
+  margin: 1vw 0 1vw 0;
+  font-family: sans-serif;
+  font-size: 1em;
+  width: 27vw;
+  border: solid rgb(129, 163, 189);
+  border-radius: 0.2em;
+  border-width: 0.1vw;
+  color: #333;
+  height: 2.5vw;
+  display: block;
+}
+section.cadastro div.genre label
+{
+  font-size: 0.5em;
+  display: inline-block;
+
+}
+section.cadastro select.day
+{
+  border: solid rgb(129, 163, 189);
+  border-radius: 0.2em;
+  border-width: 0.12vw;
+  font-size: 0.8em; 
+  width: 5vw;
+  height: 2.5vw;
+}
+section.cadastro select.month
+{
+  border: solid rgb(129, 163, 189);
+  border-radius: 0.2em;
+  border-width: 0.12vw;
+  font-size: 0.8em; 
+  width: 8vw;
+  height: 2.5vw;
+}
+section.cadastro select.year
+{
+  border: solid rgb(129, 163, 189);
+  border-radius: 0.2em;
+  border-width: 0.12vw;
+  font-size: 0.8em; 
+  width: 5vw;
+  height: 2.5vw;
+}
+
+section.cadastro input.button
+{
+  font-size: 0.7em;
+  background: white;
+  color: #096BB5;
+  text-decoration: none;
+  border: solid #096BB5;
+  border-radius: 0vw;
+  width: 10vw;
+  font-family: Arial;
+}
+section.cadastro input.button:hover
+{
+  font-size: 0.7em;
+  background: #096BB5;
+  color: white;
+  text-decoration: none;
+  border: solid #096BB5;
+  border-radius: 0vw;
+  width: 10vw;
+  font-family: Arial;
+}

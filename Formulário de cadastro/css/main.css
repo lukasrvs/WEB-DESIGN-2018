@@ -1,0 +1,221 @@
+/* Definição genérica para responsividade */
+html { font-size: calc(1em + 1vw); }
+/* Especificação de tamanho de fonte entre 14px e 26px  */
+body {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+body
+{
+  background: rgb(250, 246, 246);
+}
+header
+{
+  margin: 0vw 15vw 1vw 10vw;
+  font-family: Arial;
+  border: solid;
+  border-color: rgb(161, 160, 158);
+  border-radius: 0.1em;
+  display: flex;
+  text-align: center;
+  border-top: none;
+  padding: 0vw 0vw 0vw 4vw;
+}
+header h1 a img
+{
+  padding: 1vw 0vw 1vw 0vw;
+  width: 25%;
+}
+header h2 a img
+{
+  padding: 1.5vw 0vw 1vw 0vw;
+  width: 45%;
+}
+header div
+{
+  padding: 2vw 0vw 0vw 0vw;
+}
+
+header div h3
+{
+  color: red;
+  font-size: 0.6em;
+  font-weight: bold;
+}
+header div h4
+{
+  color: grey;
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+section.dadospessoais
+{
+  border-radius: 0.2em;
+  border: solid grey;
+  margin: 1vw 20vw 1vw 15vw; 
+}
+section.dadospessoais label
+{
+  font-family: arial;
+  color: grey;
+  font-size: 0.5em;
+}
+section.dadospessoais legend
+{
+  font-size: 0.5em;
+}
+section.dadospessoais fieldset
+{
+  font-family: arial;
+  color: grey;
+  margin: 1vw;
+}
+section.dadospessoais h3
+{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 0.6em;
+  color: white;
+  padding: 1vw 0vw 1vw 1vw;
+  background: grey;
+}
+section.dadospessoais p
+{
+  margin: 1vw;
+}
+
+
+section.dadoscondutor
+{
+  border-radius: 0.2em;
+  border: solid grey;
+  margin: 1vw 20vw 1vw 15vw;  
+}
+section.dadoscondutor h3
+{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 0.6em;
+  color: white;
+  padding: 1vw 0vw 1vw 1vw; 
+  background: grey;
+}
+section.dadoscondutor fieldset
+{
+  font-family: arial;
+  color: grey;
+  margin: 1vw;
+}
+section.dadoscondutor legend
+{
+  font-size: 0.5em;
+}
+section.dadoscondutor label
+{
+  font-family: arial;
+  color: grey;
+  font-size: 0.5em;
+}
+section.dadoscondutor p 
+{
+  margin: 1vw;
+}
+
+section.contato
+{
+  border-radius: 0.2em;
+  border: solid grey;
+  margin: 1vw 20vw 1vw 15vw; 
+}
+section.contato a
+{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 0.6em;
+  color: red;
+  padding: 1vw 0vw 0vw 1vw;
+}
+section.contato h3
+{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 0.6em;
+  color: white;
+  padding: 1vw 0vw 1vw 1vw;
+  background: grey;
+}
+section.contato label
+{
+  font-family: arial;
+  color: grey;
+  font-size: 0.5em;
+}
+section.contato p 
+{
+  margin: 1vw;
+}
+section.contato fieldset
+{
+  font-family: arial;
+  color: grey;
+  margin: 1vw;
+}
+section.contato legend
+{
+  font-size: 0.5em;
+}
+
+section.outrasinfo
+{
+  border-radius: 0.2em;
+  border: solid grey;
+  margin: 1vw 20vw 1vw 15vw; 
+}
+section.outrasinfo h3
+{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 0.6em;
+  color: white;
+  padding: 1vw 0vw 1vw 1vw;
+  background: grey;
+}
+
+section.outrasinfo label
+{
+  font-family: arial;
+  color: grey;
+  font-size: 0.5em;
+}
+section.outrasinfo legend
+{
+  font-size: 0.5em;
+}
+section.outrasinfo p 
+{
+  margin: 1vw;
+}
+section.outrasinfo fieldset
+{
+  font-family: arial;
+  color: grey;
+  margin: 1vw;
+}
+
+footer
+{
+  margin: 1vw 15vw 0vw 10vw;
+  font-family: Arial;
+  border-radius: 0.1em;
+  border: solid;
+  border-color: rgb(161, 160, 158);
+  display: flex;
+  padding: 1vw 0vw 1vw 30vw;
+  border-bottom: none;
+}
+footer h2
+{
+  font-size: 0.35em;
+  text-align: center;
+  color:rgb(71, 70, 70);
+}

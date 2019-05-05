@@ -1,0 +1,310 @@
+/* === PREDEFINIÇÕES === */
+html { font-size: calc(1em + 1vw); }
+
+header
+{
+    background-image: url(../img/fundo-banner.png);
+    padding: 1vw 0vw 5vw 0vw;
+}
+header h1
+{
+    padding: 0vw 0vw 0vw 14vw;
+}
+header div.banner
+{
+    display: flex;
+}
+header ul
+{
+    display: flex;
+    padding: 0vw 0vw 0vw 25vw;
+}
+header ul li
+{
+    margin:0vw;
+}
+header ul li a
+{
+    font-size: 0.4em;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    transition: 1s;
+}
+header ul li a:hover
+{
+    font-size: 0.4em;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(31, 178, 204);
+}
+header h2
+{
+    font-size: 1.4em;
+    font-family: sans-serif;
+    color:white; 
+    text-align: center;
+    padding: 6vw 0vw 0vw 0vw;
+
+}
+header h3
+{
+    font-family: sans-serif;
+    font-size: 0.6em;
+    color: white;
+    margin: 2vw 20vw 2vw 20vw;
+    text-align: center;
+}
+header div.linha
+{
+    display: flex;
+    justify-content: center;
+    background: rgb(31, 178, 204);
+    width: 10vw;
+    height: 0.1vw;
+    margin: 1vw 40vw 1vw 40vw;
+}
+header p a
+{
+    font-weight: bold;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 0.5em;
+    color: rgb(31, 178, 204);
+    border: solid;
+    border-width: 0.15vw;
+    margin: 1vw 42vw 1vw 42vw;
+    font-family: sans-serif;
+    border-radius: 0.15em;
+    transition: 3s;
+}
+header p a:hover
+{
+    font-weight: bold;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 0.5em;
+    color: white;
+    background: rgb(31, 178, 204);
+    border: solid rgb(31, 178, 204);
+    border-width: 0.15vw;
+    margin: 1vw 42vw 1vw 42vw;
+    font-family: sans-serif;
+    border-radius: 0.15em;
+    transition: 2s;
+}
+header a
+{
+    padding: 1vw;
+}
+header p
+{
+    padding: 0vw 0vw 7.1vw 0vw;
+}
+
+
+section.our
+{
+    font-family: sans-serif;
+    display: flex;
+    padding: 2vw 5vw 15vw 15vw;
+}
+section.our h2
+{
+    font-size: 0.5em;
+    margin: 0vw 10vw 1vw 10vw;
+    font-weight: bold;
+}
+section.our div h3
+{
+    font-size: 0.48em;
+    color: grey;
+    margin: 0vw 10vw 0vw 10vw;
+}
+
+section.our div p a
+{
+    font-weight: bold;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 0.5em;
+    color: rgb(31, 178, 204);
+    border: solid;
+    border-width: 0.15vw;
+    font-family: sans-serif;
+    border-radius: 0.1em;
+    transition: 3s;
+    padding: 1vw;
+}
+section.our div p a:hover
+{
+    font-weight: bold;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 0.5em;
+    color: white;
+    background: rgb(31, 178, 204);
+    border: solid rgb(31, 178, 204);
+    border-width: 0.15vw;
+    font-family: sans-serif;
+    border-radius: 0.1em;
+    transition: 2s;
+    padding: 1vw;
+}
+section.our div p
+{
+    padding: 2vw 10vw 2vw 10vw;
+}
+
+section.expertise
+{
+    text-align: center;
+    font-family: sans-serif;
+}
+section.expertise h1
+{
+    font-size: 0.7em;
+    font-weight: bold;
+}
+section.expertise h2
+{
+    font-size: 0.48em;
+    color: grey;
+}
+section.expertise ul
+{
+    margin: 0vw 10vw 0vw 10vw;
+    display: flex;
+    
+}
+section.expertise ul li
+{
+    border: solid grey;
+    border-width: 0.001vw;
+    padding: 1vw;
+
+}
+section.expertise ul li h3
+{
+    font-size: 0.48em;
+    font-weight: bold;
+}
+section.expertise ul li p
+{
+    font-size: 0.48em;
+    color: grey;
+    padding: 0vw 5vw 0vw 5vw
+}
+section.expertise ul li img
+{
+    width: 10%;
+}
+
+section.give
+{
+    font-family: sans-serif;
+    margin: 5vw;
+    padding: 1vw 15vw 1vw 15vw;
+}
+section.give h1
+{
+    font-size: 0.7em;
+    font-weight: bold;
+}
+section.give div
+{
+    display: flex;
+}
+section.give input
+{
+    width: 30vw;
+    height: 3vw;
+    font-size: 1vw;
+    margin: 1vw 0vw 1vw 0vw;
+}
+section.give textarea
+{
+    width: 29.8vw;
+    height: 8vw;
+    font-size: 1vw;
+    margin: 1vw 0vw 1vw 0vw;
+    font-family: sans-serif;
+}
+section.give div form
+{
+    padding: 2vw;
+}
+section.give ul
+{
+    display: flex;
+}
+section.give ul li
+{
+    margin: 1vw;
+    display: inline;
+
+}
+section.give ul li img
+{
+    display: flex;
+    text-align: center; 
+    padding: 1vw;
+}
+section.give div div.our
+{
+    display: flex;  
+}
+section.give div.submit input
+{
+    font-weight: bold;
+    font-family: sans-serif;
+    width:10vw;
+    height: 3vw;
+    background: white;
+    border:solid rgb(31, 178, 204);
+    border-width: 0.1em;
+    color: rgb(31, 178, 204);
+    transition: 3s;
+}
+section.give div.submit input:hover
+{
+    font-weight: bold;
+    font-family: sans-serif;
+    width:10vw;
+    height: 3vw;
+    background: rgb(31, 178, 204);
+    border:solid rgb(31, 178, 204);
+    border-width: 0.1em;
+    color: white;
+    transition: 2s;
+}
+
+section.footer
+{
+    background: blue;
+    font-family: sans-serif;
+    display: flex;
+}
+
+section.footer div ul
+{
+    display: flex;
+}
+section.footer div p
+{
+    font-size: 0.5em;
+    padding: 1vw;
+    
+}
+section.footer div
+{
+    padding: 0vw 5vw 0vw 5vw;
+}
+
+
+
+/* === BREAKPOINTS === */
+@media all and (max-width: 1199px) { ... } 
+@media all and (max-width: 480px) { ... }

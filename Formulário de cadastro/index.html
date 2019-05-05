@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <title>DETRAN-SP</title>
+  <meta name="description" content="Cadastre-se">
+  <meta name="keywords" content="Cadastre-se">
+  <meta name="author" content="Lucas Antonio Ribeiro Vitor de Souza">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+</head>
+
+<body>
+<header>
+    <h1><a><img src="img/logo.png"></a></h1>
+
+    <div>
+        <h3>Secretaria de Planejamento e Gestão</h3>
+        <h4>Departamento Estadual de Trânsito de São Paulo</h4>
+    </div>
+    
+    <h2><a><img src="img/ecnh.png"></a></h2>
+</header>
+
+<section class="dadospessoais">
+
+    <h3>Dados Pessoais</h3>
+    <p>
+    <label for="nome">Nome*
+    <input type="text" name="name" id="nome" required>
+    </label>
+    </p>
+
+    <p>
+    <label for="father">Nome do Pai*
+    <input type="text" name="namef" id="father" required>
+    </label>
+    </p>
+
+    <p>
+    <label for="mother">Nome da Mãe*
+    <input type="text" name="namem" id="mother" required>
+    </label>
+    </p>
+
+    <p>
+    <label for="nasc">Data de Nascimento*</label>
+    <input type="date" name="nasc" id="nasc" required>
+    </p>
+
+    <fieldset>
+        <legend>Sexo*</legend>
+        <label>
+            <input type= "radio" name="sexo" value="M" required>
+            Masculino
+        </label>
+        <label>
+            <input type="radio" name="sexo" value="F" required>
+            Feminino
+        </label>
+    </fieldset>
+
+    <p><label>Nacionalidade*</label>
+    <select name="nacionalidade" id="nacio">
+        <OPTION>--SELECIONE--</OPTION>
+        <option>Brasil</option>
+        <option>Argentina</option>
+        <option>Paraguay</option>
+    </select></p>
+
+    <p><label>Estado*</label>
+    <Select name="estado" id=estad>
+        <option>--SELECIONE--</option>
+        <option>São Paulo</option>
+        <option>Santa Catarina</option>
+    </Select></p>
+
+</section>
+
+<section class="dadoscondutor">
+    <h3>Dados do Condutor</h3>
+    <fieldset>
+        <legend>Tipo de Documento</legend>
+        <label>
+            <input type="radio" name="pr" value="p" required>
+            PGU (nº CNH sem foto)
+        </label>
+        <label>
+            <input type="radio" name="pr" value="r" required>
+            Registro (nº CNH com foto)
+        </label>
+    </fieldset>
+
+    <p><label>
+        Nº Registro/PGU
+        <input type="text" name="reg" id="reg" required>
+    </label></p>
+
+    <p><label>Categoria Atual</label>
+    <select name="categoria" id="cate">
+        <OPTION>--SELECIONE--</OPTION>
+        <option>A</option>
+        <option>B</option>
+        <option>A/B</option>
+    </select></p>
+
+</section>
+
+<section class="contato">
+<h3>Contato</h3>
+<a>"IMPORTANTE: O preenchimento destes dados é fundamental para o DETRAN  possa entrar em contato"</a>
+
+<p>
+    <label>
+        DDD / Telefone - (00)99999999
+        <input type="text" name="telefone" id=tel>
+    </label>
+</p>
+<p>
+    <label>
+        DDD / Celular - (00)999999999
+        <input type="text" name="celular" id="cel">
+    </label>
+    </p>
+<p>
+     <label>
+        E-mail
+        <input type="text" name="email" id="em">
+        
+    </label>
+ </p>
+ <p>
+   <label>
+        Confirmar E-mail
+        <input type="text" name="email" id="em">
+   </label>
+</p>
+
+    <p><label>
+        <input type="checkbox" name="opcoes" id="">
+        Autorizo o envio de SMS pelo DETRAN
+    </label>
+    <label>
+        <input type="checkbox" name="opcoes" id="">
+        Autorizo o envio deE-mail pelo DETRAN
+    </label></p>
+
+    <fieldset>
+        <legend>Desejo solicitar a CNH digital e associar o e-mail a CNH eletrônica? *</legend>
+        <label><input type="radio" name="op" id="op" required>Sim</label>
+        <label><input type="radio" name="op" id="op" required>Não</label>
+    </fieldset>
+</section>
+
+<section class="outrasinfo">
+    <h3>Outras Informações</h3>
+    <fieldset><legend>Pretende exercer atividade remunerada? *</legend>
+        <label><input type="radio" name="pear" id="pear" required>Sim</label>
+        <label><input type="radio" name="pear" id="pear" required>Não</label>
+    </fieldset>
+    <fieldset><legend>Tem necessidade de veículo adaptado? *</legend>
+        <label><input type="radio" name="tndv" id="tndv" required>Sim</label>
+        <label><input type="radio" name="tndv" id="tndv" required>Não</label>
+    </fieldset>
+    <fieldset><legend>É militar e vai utilizar o CFC da corporação? *</legend>
+        <label><input type="radio" name="emev" id="emev" required>Sim</label>
+        <label><input type="radio" name="emev" id="emev" required>Não</label>
+    </fieldset>
+</section>
+
+<footer>
+<h2> DETRAN-SP - Todos os direitos reservados. - v6.66.6 (06/06/2006)</h2>
+</footer>
+
+</body>

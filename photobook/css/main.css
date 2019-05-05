@@ -1,0 +1,243 @@
+/* Definição genérica para responsividade */
+html { font-size: calc(1em + 1vw); }
+/* Especificação de tamanho de fonte entre 14px e 26px  */
+body {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+/* ===================  HEADER =================== */
+body header
+{
+	background: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+header h1 a
+{
+	background: white;
+	/* display: flex;
+	flex-wrap: wrap;
+	margin: 1vw 0.5vw 0vw 10vw; */
+}
+header h2 
+{
+	text-align: left;
+	padding: 0vw 13vw 0vw 0vw; 
+} 
+header h1, header h2
+{
+	background: white;
+	padding: 2vw 2vw 2vw 2vw ;
+	display: inline;
+}
+
+header a
+{
+	background: #FFD200;
+  	color:black;
+  	text-decoration: none;
+  	font-size: 1em;
+ 	font-family: "Arial";
+  	text-align: center;
+  	/* padding: 1vw 2vw 1vw 2vw; */
+  	border-radius: 0.7vw;
+}
+header a:hover
+{
+	color: yellow;
+}
+
+/* ===================  BANNER =================== */
+section.banner
+{
+	text-align: center;
+	background-image: url('../img/banner.png');
+	background-repeat: no-repeat;
+	padding: 14vw 15vw 10vw 15vw;
+}
+section.banner div.backgorund
+{
+
+	
+
+  	font-family: "Arial";
+	color: black;
+}
+section.banner div.title h2
+{
+	text-decoration: none;
+	font-family: "Arial";
+	padding: 0.5vw 0.5vw 0.5vw 0.5vw; 
+	font-size: 3.5em;  
+ 	color: black;
+}
+section.banner div.description h3
+{
+	font-family: "Arial";
+	padding: 0.5vw 0.5vw 6vw 0.5vw;
+	font-size: 2em;
+ 	color: black;
+}
+section.banner div.button p a
+{
+	background: transparent;
+	font-family: arial;
+	font-size: 1.5em;
+	padding: 1vw 3vw 1vw 3vw;
+	border: solid;
+	text-decoration: none;
+	border-radius: 0.9vw;
+	color: black;
+}
+section.banner div.button p a:hover
+{
+		padding: padding: 1vw 3vw 1vw 3vw;
+		font-family: arial;
+		font-size: 1.5em;
+		color: white;
+		background: red;
+		border: solid;
+		border-radius: 0.9vw;
+		text-decoration: none;
+}
+
+/* ===================  GALERIA =================== */
+section.galeria
+{
+	background: #F3F0E9;
+	padding: 10vw 0vw 10vw 0vw;
+	text-align: center;
+	
+}
+section.galeria h2
+{
+	color: black;
+	font-size: 4em;
+	font-family: arial;
+	text-align: center;
+}
+section.galeria ul
+{
+	padding: 5vw 5vw 5vw 5vw;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+  	font-family: "Arial";
+ 	flex-wrap: wrap;
+}
+section.galeria li
+{
+	width: 14vw;
+  	margin: 0vw 2vw 0vw 2vw;
+}
+section.galeria ul li img
+{
+
+ 	width: 100%; 
+
+}
+section.galeria h3 
+{
+  margin: 0vw 0vw 0vw 0vw;
+  text-align: center;
+  flex-wrap: wrap;
+}
+section.galeria p a
+{
+	background: red;
+	font-family: arial;
+	font-size: 1.5em;
+	padding: 1vw 3vw 1vw 3vw;
+	text-decoration: none;
+	border-radius: 0.9vw;
+	color: white;
+
+}
+section.galeria p a:hover
+{
+	background: transparent;
+	font-family: arial;
+	font-size: 1.5em;
+	padding: 1vw 3vw 1vw 3vw;
+	text-decoration: none;
+	border-radius: 0.9vw;
+	color: black;
+	border: solid;
+	border-radius: 0.9em;
+
+}
+
+/* ===================  TESTIMONIAL =================== */
+section.testimonial
+{
+	background: white;
+	padding: 10vw 0vw 10vw 0vw;	
+	text-align: center;
+	margin-bottom: 1vw;
+}
+section.testimonial h2
+{
+	color: black;
+	font-size: 4em;
+	font-family: arial;
+	text-align: center;
+	padding: 0vw 0vw 10vw 0vw ;
+}
+section.testimonial ul
+{
+	display: flex;
+}
+section.testimonial div.one p
+{
+	padding: 0vw 8vw 1vw 8vw ; 
+	color: black;
+	font-size: 1em;
+	font-family: arial;
+	text-align: left;
+}
+section.testimonial div.two p
+{
+	padding: 0vw 8vw 1vw 8vw ;
+	color: black;
+	font-size: 1em;
+	font-family: arial;
+	text-align: right;
+}
+
+/* ===================  RODAPE =================== */
+footer h2
+{
+	padding: 3vw 3vw 3vw 3vw;
+	text-decoration: none;
+	font-family: "Arial";
+	font-size: 1em;
+	background: #FFD200;
+	text-align: center;
+}
+
+@media all and (max-width: 980px) 
+{
+  section.galeria ul li
+  {
+    width: 20vw;
+  }
+}
+@media all and (max-width: 736px)
+{
+  section.galeria ul li
+  {
+    width: 40vw;
+  }
+}
+@media all and (max-width: 480px)
+{
+  section.galeria ul li
+  {
+    width: 80vw;
+  }
+  header
+  {
+    display: block;
+  }
+}
