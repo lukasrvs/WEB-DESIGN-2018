@@ -1,0 +1,336 @@
+/* === PREDEFINIÇÕES === */
+html { font-size: calc(1em + 1vw); }
+
+
+/* === BREAKPOINTS === */
+
+body header
+{
+    flex-wrap: wrap;
+    background: #323232;
+    padding: 1vw 1vw 14vw 0vw;
+}
+header h1 a img
+{
+    width: 2cm;
+}
+header h1
+{
+    padding: 1vw 1vw 1vw 20vw;
+}
+
+header h2
+{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 6vw 0vw 0vw 0vw;
+}
+header p
+{
+    text-align: center;
+    font-family: Arial;
+    color: grey;
+    padding: 5vw 35vw 0vw 35vw;
+    font-size: 0.5em;
+}
+header p a
+{
+    color:white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 1vw 4vw 1vw 4vw;
+    border-radius: 0.3em;
+    background: #E36659;
+    transition: 2s;
+}
+header p a:hover
+{
+    color:#E36659;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 1vw 4vw 1vw 4vw;
+    border-radius: 0.3em;
+    background: white;
+    transition: 2s;
+}
+
+/* ----------------------------- Components ----------------------------- */
+
+section.components
+{
+    background: white;
+    font-family: Arial;
+    padding: 5vw 0vw 5vw 0vw;
+    flex-wrap: wrap;
+}
+section.components ul
+{
+    text-align: center;
+    display: flex;
+    padding:  0vw 5vw 0vw 5vw;
+}
+section.components ul li h3
+{
+    font-size: 0.7em;
+    padding: 2vw 3vw 2vw 3vw;
+
+}
+section.components ul li p
+{
+    color: grey;
+    text-align: center;
+    font-size: 0.51em;
+    padding: 0vw 6vw 0vw 6vw;
+}
+
+/* ----------------------------- Get In Touch ----------------------------- */
+
+section.Get
+{
+    background: #FCFCFC; 
+    font-family: Arial;
+    padding: 10vw 0vw 8vw 0vw;
+    
+}
+section.Get h2
+{
+    color: black;
+    font-size: 0.7em;
+    text-align: center;
+}
+section.Get p
+{
+    padding: 1vw 0vw 3vw 0vw;
+    font-size: 0.45em;
+    text-align: center;
+    color: grey;
+}
+section.Get input
+{
+    background: #F3F4F6;
+    color: grey;
+    border: none;
+    width: 16.8vw;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 1vw 1vw 1vw 1vw;
+}
+section.Get select
+{
+    background: #F3F4F6;
+    color: grey;
+    border: none;
+    margin: 0vw 2vw 1vw 2vw;
+    width: 40vw;
+    padding: 1vw 0vw 1vw 0vw;
+    display: flex;
+}
+section.Get textarea
+{
+    background: #F3F4F6;
+    color: grey;
+    font-family: Arial;
+    border: none;
+    width: 40vw;
+    padding: 1vw 0vw 1vw 0vw;
+    display: flex;
+    margin: 0vw 2vw 1vw 2vw;
+}
+section.Get div.submit input
+{
+    background: #E36659 ;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    border: none;
+    margin: 0vw 1vw 1vw 1vw;
+    width: 40vw;
+    transition: 2s;
+}
+section.Get div.submit input:hover
+{
+    background:  grey;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    border: none;
+    margin: 0vw 1vw 1vw 1vw;
+    padding: 1vw 18.5vw 1vw 18.5vw;
+    transition: 5s;
+} 
+
+section.Get ul 
+{
+    padding: 1vw 1vw 1vw 10vw;
+    width: 30vw;
+}
+section.Get ul li h4
+{
+    text-align: left;
+    font-size: 0.55em;
+    padding: 1vw;
+}
+section.Get ul li p
+{
+    text-align: left;
+    font-size: 0.44em;
+    padding:  0vw 0vw 0vw 1vw;
+}
+section.Get div
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0vw 0vw 0vw 0vw;
+    margin: 1vw;
+}
+
+
+
+/* ----------------------------- footer ----------------------------- */
+
+footer
+{
+    background: #323232;
+    padding: 3vw 0vw 3vw 0vw;
+    display: flex;
+}
+footer h3
+{
+    padding: 0vw 39vw 0vw 15vw;
+    font-size: 0.35em;
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+}
+footer a
+{
+    flex-wrap: wrap;
+    padding: 0vw 0.5vw 0vw 1vw;
+}
+footer a img
+{
+    width: 0.78cm;
+}
+@media all and (max-width: 1199px)
+{
+
+} 
+@media all and (max-width: 480px) 
+{ 
+section.components ul
+{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+section.components ul li img
+{
+    flex-wrap: wrap;
+    width: 20%;
+}
+section.Get
+{
+    margin: 1vw;
+}
+section.Get input
+{
+    padding: 1vw 6.5vw 1vw 1vw;
+}
+section.Get select
+{
+    padding: 1vw 63vw 1vw 1vw;
+}
+section.Get textarea
+{
+    padding: 1vw 54.5vw 1vw 1vw;
+}
+section.Get div.submit input
+{
+    padding: 1vw 37.5vw 1vw 37.5vw;
+}
+section.Get div, ul
+{
+    display: inline;
+}
+footer
+{
+    text-align: left;
+    padding: 5vw 0 5vw 0;
+}
+footer a img
+{
+    width: 60%;
+    padding: 0vw 8vw 0vw 0vw;
+}
+}
+@media all and (max-width: 360px) 
+{
+    section.components ul
+{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+section.components ul li img
+{
+    flex-wrap: wrap;
+    width: 20%;
+}
+section.Get
+{
+    margin: 1vw;
+}
+section.Get input
+{
+    margin: 1vw;
+    width: 30vw;
+}
+section.Get select
+{
+    margin: 1vw 3vw 1vw 9vw;
+    width: 78vw;
+}
+section.Get textarea
+{
+    margin: 1vw 3vw 1vw 9vw;
+    width: 78vw;
+    padding: 1vw 0vw 1vw 1vw;
+}
+section.Get div.submit input
+{
+    margin: 1vw;
+    width: 10vw;
+    text-align: center;
+    padding: 1vw 38vw 1vw 26vw;
+}
+section.Get div.submit input:hover
+{
+    margin: 1vw;
+    width: 10vw;
+    text-align: center;
+    padding: 1vw 38vw 1vw 26vw;
+}
+section.Get div
+{
+    text-align: center;
+    justify-content: center;
+    margin: 1vw;
+}
+section.Get div, ul
+{
+    display: inline;
+}
+footer
+{
+    text-align: left;
+    padding: 5vw 0 5vw 0;
+}
+footer a img
+{
+    width: 60%;
+    padding: 0vw 8vw 0vw 0vw;
+}
+}
