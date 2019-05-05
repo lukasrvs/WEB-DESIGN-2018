@@ -1,0 +1,272 @@
+/* Definição genérica para responsividade */
+html { font-size: calc(1em + 1vw); }
+/* Especificação de tamanho de fonte entre 14px e 26px  */
+body {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+header{
+  background: #87509c;
+  display: flex;
+  justify-content: space-between;
+  padding: 4vw 0vw 4vw 6vw;
+}
+
+header ul
+{
+  display: flex;
+}
+
+header ul li
+{
+  flex-wrap: wrap;
+  margin: 0 0.5vw 0 0.5vw;
+  
+}
+
+header ul li a
+{
+  flex-wrap: wrap;
+  padding: 0vw 0vw 0vw 0vw;
+  text-decoration: none;
+  color: white;
+  font-size: 0.7em;
+  font-family: "Arial";
+}
+
+header ul li a:hover
+{
+  color: orange;
+}
+
+
+/*=== BANNER === */
+
+section.banner
+{
+  background: #87509C;
+  padding: 14vw 15vw 10vw 15vw;
+  font-family: "Arial";
+  text-align: center;
+  color: white;
+}
+
+section.banner h2
+{
+  font-size: 1.8em;
+  
+}
+
+section.banner p
+{
+  padding: 6vw 0 0 0;
+}
+
+section.banner p a
+{
+  background: #eb7d4b;
+  color:white;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "Arial";
+  text-align: center;
+  padding: 1.5vw 2.5vw 1.5vw 2.5vw;
+  border-radius: 0.3vw;
+}
+
+section.banner p a:hover
+{
+  color:#334b8e;
+
+}
+
+
+/*---NOSSOS SERVIÇOS---*/
+
+section.servicos
+{
+  background: #17C2A4;
+  color:white;
+  font-family: "Arial";
+  font-size: 1em;
+  text-align: center;
+  padding: 2vw 8vw 0vw 8vw;
+}
+
+section.servicos h2
+{
+  font-size: 1.9em;
+  padding: 2vw 3vw 2vw 3vw;
+}
+
+section.servicos>p
+{
+  margin: 0vw 25vw 5vw 25vw;
+  color:white;
+  font-family: "Arial";
+  font-size: 0.7em;
+  text-align: center;  
+
+}
+
+section.servicos ul
+{
+  padding: 5vw 5vw 5vw 5vw;
+  display: flex;
+  font-family: "Arial";
+  flex-wrap: wrap;
+}
+section.servicos li
+{
+  width: 14vw;
+  margin: 0vw 2vw 0vw 2vw;
+}
+
+section.servicos h3 
+{
+  margin: 0vw 0vw 0vw 0vw;
+  flex-wrap: wrap;
+}
+
+section.servicos ul li img
+{
+  width: 50%;
+}
+
+section.servicos p
+{
+  padding: 2vw 0vw 0vw 0vw;
+  font-family: "Arial";
+  margin: 1vw;
+  text-align: center;
+}
+
+/*---Rodapé---*/
+
+section.rodape
+{
+
+  background: #334b8e;
+  color: white;
+  text-align: center;
+  font-family: "Arial";
+  padding: 2vw 3vw 2vw 3vw;
+}
+
+section.rodape ul
+{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+section.rodape li
+{
+  margin: 0vw 2vw 0vw 0.5vw;
+}
+
+section.rodape a 
+{
+  background: #334b8e;
+  color: white;
+  text-align: center;
+  font-family: "Arial";
+  text-decoration: none;
+  padding: ;
+}
+
+footer
+{
+  background: none;
+}
+
+footer ul
+{
+  display: flex;
+}
+
+footer li a
+{
+  color: white;
+  text-decoration: none;
+}
+
+section li a:hover
+{
+  color: orange;
+}
+
+@media all and (max-width: 980px) 
+{
+  section.servicos ul li
+  {
+    width: 20vw;
+  }
+}
+@media all and (max-width: 736px)
+{
+  section.servicos ul li
+  {
+    width: 40vw;
+  }
+}
+@media all and (max-width: 480px)
+{
+  section.servicos ul li
+  {
+    width: 80vw;
+  }
+  header
+  {
+    display: block;
+  }
+}
+/*---PAGINA SOBRE---*/
+section.bannersobre
+{
+  background: #17C2A4;
+  padding: 14vw 15vw 100vw 15vw;
+  font-family: "Arial";
+  text-align: center;
+  color: white;
+}
+
+/*---PAGINA PORTIFOLIO---*/
+section.bannerportifolio
+{
+  background: #17C2A4;
+  padding: 14vw 15vw 100vw 15vw;
+  font-family: "Arial";
+  text-align: center;
+  color: white;
+}
+
+/*---PAGINA BLOG---*/
+section.bannerblog
+{
+  background: #17C2A4;
+  padding: 14vw 15vw 100vw 15vw;
+  font-family: "Arial";
+  text-align: center;
+  color: white;
+}
+
+/*---PAGINA CONTATO---*/
+section.bannercontato
+{
+  background: #17C2A4;
+  padding: 14vw 15vw 100vw 15vw;
+  font-family: "Arial";
+  text-align: center;
+  color: white;
+}
+
+/*---PAGINA TRABALHE CONOSCO---*/
+section.bannertrabalheconosco
+{
+  background: #17C2A4;
+  padding: 14vw 15vw 100vw 15vw;
+  font-family: "Arial";
+  text-align: center;
+  color: white;
+}
